@@ -8,38 +8,40 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: #333;
+    font-size: 70px;
+}
+
 p {
-    font-size: 40px ;
+    font-size: 40px;
     color: #333;
 }
 
-.container {
+button {
+    font-size: 50px;
+}
+
+.choices {
+    
+    font-size: 50px;
+    box-shadow: #d30a0a;
+
+}
+
+.game-area {
     text-align: center;
 }
 
 #choice-btn {
 
     background-color: rgba(221, 255, 0, 0.004);
-    font-size: 55px;
+    font-size: 5rem;
     border-radius: 50%;
-
-}
-
-h1 {
-    color: #333;
-    font-size: 70px;
-}
-
-
-
-
-
-button {
     padding: 10px 20px;
     font-size: 16px;
     margin: 10px;
     cursor: pointer;
-    
 }
 
 #result {
