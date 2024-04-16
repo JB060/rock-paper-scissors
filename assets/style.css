@@ -1,50 +1,55 @@
+/* Set body styles */
 body {
-    background-color: rgba(106, 223, 63, 0.912);
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: rgba(106, 223, 63, 0.912); /* Background color with alpha transparency */
+    font-family: Arial, sans-serif; /* Font family for the entire page */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
 }
 
+/* Styling for the game title */
 h1 {
-    color: #333;
-    font-size: 70px;
+    color: #333; /* Text color */
+    font-size: 70px; /* Font size */
 }
 
+/* Styling for paragraphs */
 p {
-    font-size: 40px;
-    color: #333;
+    font-size: 40px; /* Font size */
+    color: #333; /* Text color */
 }
 
+/* Styling for all buttons */
 button {
-    font-size: 50px;
+    font-size: 50px; /* Font size */
 }
 
+/* Styling for the choices container */
 .choices {
-    
-    font-size: 50px;
-    box-shadow: #d30a0a;
-
+    font-size: 50px; /* Font size for choice buttons */
+    box-shadow: #d30a0a; /* Apply box shadow */
 }
 
+/* Styling for the game area */
 .game-area {
-    text-align: center;
+    text-align: center; /* Center-align content */
 }
 
+/* Styling for choice buttons with specific ID */
 #choice-btn {
-
-    background-color: rgba(221, 255, 0, 0.004);
-    font-size: 5rem;
-    border-radius: 50%;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointer;
+    background-color: rgba(221, 255, 0, 0.004); /* Background color with alpha transparency */
+    font-size: 5rem; /* Larger font size */
+    border-radius: 50%; /* Make button round */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    margin: 10px; /* Margin around buttons */
+    cursor: pointer; /* Show pointer cursor on hover */
 }
 
+/* Styling for the game result display */
 #result {
-    font-size: 50px;
-    margin-top: 30px;
+    font-size: 50px; /* Font size */
+    margin-top: 30px; /* Top margin */
 }

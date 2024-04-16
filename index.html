@@ -5,31 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css"> <!-- Link to external stylesheet -->
 </head>
 
 <body>
     <div class="game-area">
-        <h1> 🪨 Rock 🗞️ Paper ✂️ Scissors</h1>
-        <p>Make your choice:</p>
+        <h1> 🪨 Rock 🗞️ Paper ✂️ Scissors</h1> <!-- Game title -->
+        <p>Make your choice:</p> <!-- Instruction for the user -->
 
         <div class="choices">
-
-            <button id=choice-btn , onclick="play('rock')">👊</button>
-            <button id=choice-btn , onclick="play('paper')">🤚</button>
-            <button id=choice-btn , onclick="play('scissors')">✌️</button>
+            <!-- Buttons for user choices with onclick event calling play() function -->
+            <button id="choice-btn" onclick="play('rock')">👊</button> <!-- Rock button -->
+            <button id="choice-btn" onclick="play('paper')">🤚</button> <!-- Paper button -->
+            <button id="choice-btn" onclick="play('scissors')">✌️</button> <!-- Scissors button -->
         </div>
 
+        <!-- Display user's and computer's scores -->
         <p id="user-score">Your Score: 0</p>
         <p id="computer-score">Computer Score: 0</p>
 
-
+        <!-- Display game result (win/lose/tie) -->
         <p id="result"></p>
-
     </div>
 
-
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
 </body>
 
 </html>
