@@ -29,6 +29,11 @@ function play(userChoice) {
 
     // Decrease the remaining turns
     maxTurns--;
+
+    // Check again if maxTurns is 0 to end the game after this turn
+    if (maxTurns === 0) {
+        endGame();
+    }
 }
 
 // Function to determine the winner of the game
@@ -75,6 +80,10 @@ function endGame() {
     choiceButtons.forEach(button => {
         button.disabled = true;  // Disable each choice button
     });
+
+    // Show the reset button when the game ends
+    const resetButton = document.getElementById('reset-button');
+    resetButton.style.display = 'block';
 }
 
 // Function to reset the game and start again
@@ -97,9 +106,18 @@ function resetGame() {
     choiceButtons.forEach(button => {
         button.disabled = false;  // Enable each choice button
     });
+
+    // Hide the reset button after resetting the game
+    const resetButton = document.getElementById('reset-button');
+    resetButton.style.display = 'none';
 }
 
 // Add event listener to the reset button
 document.getElementById('reset-button').addEventListener('click', resetGame);
+
+// Initial setup to hide the reset button
+window.onload = function() {
+    document.getElementById('reset-button').style.display = 'none';
+}
 
 
