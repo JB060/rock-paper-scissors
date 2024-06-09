@@ -77,4 +77,29 @@ function endGame() {
     });
 }
 
+// Function to reset the game and start again
+function resetGame() {
+    // Reset scores and turns
+    userScore = 0;
+    computerScore = 0;
+    maxTurns = 5;
+
+    // Reset displayed scores and result
+    const userScoreElement = document.getElementById('user-score');
+    const computerScoreElement = document.getElementById('computer-score');
+    const resultElement = document.getElementById('result');
+    userScoreElement.textContent = `Your Score: ${userScore}`;
+    computerScoreElement.textContent = `Computer Score: ${computerScore}`;
+    resultElement.textContent = '';
+
+    // Enable choice buttons for new game
+    const choiceButtons = document.querySelectorAll('.choices button');
+    choiceButtons.forEach(button => {
+        button.disabled = false;  // Enable each choice button
+    });
+}
+
+// Add event listener to the reset button
+document.getElementById('reset-button').addEventListener('click', resetGame);
+
 
