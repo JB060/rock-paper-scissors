@@ -13,11 +13,11 @@ function play(userChoice) {
 
     // Array of choices for the computer
     const choices = ['rock', 'paper', 'scissors'];
-    // Generate a random index to choose computer's move
+    // Generate a random index to choose computer's move.
     const randomIndex = Math.floor(Math.random() * 3);
-    const computerChoice = choices[randomIndex];  // Computer's random choice
+    const computerChoice = choices[randomIndex];  // Computer's random choice.
 
-    // Determine the winner based on user's choice and computer's choice
+    // Determine the winner based on user's choice and computer's choice.
     const result = determineWinner(userChoice, computerChoice);
 
     // Update scores and display result
