@@ -62,10 +62,8 @@ button {
     justify-content: center; /* Center choices horizontally */
     gap: 20px; /* Space between buttons */
     margin-bottom: 20px; /* Space below the choices */
+    b
 }
-
-/* Specific styling for the reset button */
-#reset-button {
 
 
 /* Styling for the game result display */
