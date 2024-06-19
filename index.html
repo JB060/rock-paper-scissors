@@ -10,7 +10,7 @@
 
 <body>
     <div class="game-area">
-        <h1> 🪨 Rock 🗞️ Paper ✂️ Scissors</h1> <!-- Game title -->
+        <h1><span>🪨 Rock</span> <span>🗞️ Paper</span> <span>✂️ Scissors</span></h1> <!-- Game title -->
         <p>Make your choice:</p> <!-- Instruction for the user -->
 
         <div class="choices">
@@ -18,10 +18,6 @@
             <button id="choice-btn" onclick="play('rock')">👊</button> <!-- Rock button -->
             <button id="choice-btn" onclick="play('paper')">🤚</button> <!-- Paper button -->
             <button id="choice-btn" onclick="play('scissors')">✌️</button> <!-- Scissors button -->
-        </div>
-
-        <div id ="reset-button">
-            <button> Replay</button>
         </div>
 
         <!-- Display user's and computer's scores -->
@@ -32,6 +28,15 @@
         <p id="result"></p>
     </div>
 
+    <div id="game-over-popup">
+        <img src="https://t3.ftcdn.net/jpg/03/12/81/58/360_F_312815843_CdVm05kiBenU3YmChP1KRIzcblRgTQFV.jpg" alt="You win" id="win-img">
+        <img src="https://motionarray.imgix.net/motion-array-1846273-7Bdfr4zSWg-high_0004.jpg?w=660&q=60&fit=max&auto=format" alt="You loose" id="loose-img">
+        <img src="https://pbs.twimg.com/media/Dotba9jXkAEHw_F.jpg" alt="Tie" id="tie-img">
+        <p id="game-over-result"></p>
+        <div id ="reset-button">
+            <button>Replay</button>
+        </div>
+    </div>
 
     <script src="script.js"></script> <!-- Link to external JavaScript file -->
 </body>
