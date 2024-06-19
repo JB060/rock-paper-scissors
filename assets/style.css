@@ -5,9 +5,12 @@ body {
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    height: 100vh; /* Full viewport height */
+    min-height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
     text-align: center; /* Center-align text */
+
+    background: linear-gradient(51deg, rgba(245, 185, 2, 1) 0%, rgba(255, 106, 0, 1) 100%);
+        color: #333; /* Text color */
 }
 
 /* Styling for the game container */
@@ -20,13 +23,35 @@ body {
 /* Styling for the game title */
 h1 {
     color: #333; /* Text color */
-    font-size: 70px; /* Font size */
+    font-size: 30px; /* Font size */
+}
+
+@media(min-width: 769px){
+    h1{
+       font-size: 50px; /* Font size */
+    }
+}
+
+h1 span {
+    display: block;
+}
+
+@media(min-width: 769px){
+    h1 span {
+        display: inline-block;
+    }
 }
 
 /* Styling for paragraphs */
 p {
-    font-size: 40px; /* Font size */
-    color: #333; /* Text color */
+    font-size: 20px; /* Font size */
+
+}
+
+@media(min-width: 769px){
+    p {
+        font-size: 40px; /* Font size */
+    }
 }
 
 /* Styling for all buttons */
@@ -44,17 +69,34 @@ button {
 }
 
 /* Styling for choice buttons */
+
 #choice-btn {
     background-color: rgba(221, 255, 0, 0.004); /* Background color with alpha transparency */
     font-size: 3rem; /* Larger font size */
     border-radius: 50%; /* Make button round */
     padding: 20px; /* Padding inside the button */
-    width: 150px; /* Fixed width for buttons */
-    height: 150px; /* Fixed height for buttons */
+    width: 80px; /* Fixed width for buttons */
+    height: 80px; /* Fixed height for buttons */
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center text horizontally */
     align-items: center; /* Center text vertically */
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1); /* Add box shadow for depth */
+
+    background-color: #fff;
+}
+
+@media(min-width: 769px){
+    #choice-btn {
+         width: 100px; /* Fixed width for buttons */
+        height: 100px; /* Fixed height for buttons */
+    }
+}
+
+@media(min-width: 993px){
+    #choice-btn {
+        width: 150px; /* Fixed width for buttons */
+        height: 150px; /* Fixed height for buttons */
+    }
 }
 /* Styling for the reset container */
 .reset-container {
@@ -65,8 +107,52 @@ button {
 }
 
 
-/* Styling for the game result display */
-#result {
-    font-size: 40px; /* Font size */
-    margin-top: 20px; /* Top margin */
+#reset-button button {
+    border: solid 2px #000;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 40px;
 }
+
+@media(min-width: 769px){
+    #reset-button button {
+        font-size: 30px;
+    }
+}
+
+/* Styling for the game result display */
+p#result {
+    font-size: 20px; /* Font size */
+    margin-top: 20px; /* Top margin */
+    color: #fff;
+}
+
+p#user-score,
+p#computer-score {
+    color: #fff;
+}
+
+@media(min-width: 769px){
+    p#result {
+        font-size: 40px; /* Font size */
+    }
+}
+
+
+#game-over-popup {
+    display: none;
+    position: fixed;
+    border: 7px solid #fff;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 30px;
+    max-width: 500px;
+}
+
+#game-over-popup img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
