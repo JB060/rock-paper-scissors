@@ -73,13 +73,35 @@ function updateScores(result) {
 function endGame() {
     // Display final scores and game over message
     const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `Game Over! Final Scores:<br>Your Score: ${userScore}<br>Computer Score: ${computerScore}`;
+    resultElement.innerHTML = "";
+    //resultElement.innerHTML = `Game Over! Final Scores:<br>Your Score: ${userScore}<br>Computer Score: ${computerScore}`;
+
+    const popupResult = document.getElementById('game-over-result');
+    popupResult.innerHTML = `Game Over!<br>Final Scores:<br>Your Score: ${userScore}<br>Computer Score: ${computerScore}`;
+
+    const popup = document.getElementById('game-over-popup');
+    popup.style.display = 'block';
 
     // Disable choice buttons to prevent further gameplay
     const choiceButtons = document.querySelectorAll('.choices button');
     choiceButtons.forEach(button => {
         button.disabled = true;  // Disable each choice button
     });
+
+    if (userScore > computerScore ){
+        const winImg = document.getElementById('win-img');
+        winImg.style.display = "block"
+    }
+
+    if (userScore < computerScore ){
+        const looseImg = document.getElementById('loose-img');
+        looseImg.style.display = "block"
+    }
+
+     if (userScore == computerScore ){
+        const tieImg = document.getElementById('tie-img');
+        tieImg.style.display = "block"
+    }
 
     // Show the reset button when the game ends
     const resetButton = document.getElementById('reset-button');
@@ -107,9 +129,17 @@ function resetGame() {
         button.disabled = false;  // Enable each choice button
     });
 
-    // Hide the reset button after resetting the game
-    const resetButton = document.getElementById('reset-button');
-    resetButton.style.display = 'none';
+    
+    // get popup
+    const popup = document.getElementById('game-over-popup');
+    // get popup image
+    var images = popup.getElementsByTagName("img");
+    // hide popup images
+    for(var i=0; i<images.length; i++) {
+        images[i].style.removeProperty('display')
+    }
+    // hide popup
+    popup.style.display = 'none';
 }
 
 // Add event listener to the reset button
@@ -119,5 +149,6 @@ document.getElementById('reset-button').addEventListener('click', resetGame);
 window.onload = function() {
     document.getElementById('reset-button').style.display = 'none';
 }
+
 
 
