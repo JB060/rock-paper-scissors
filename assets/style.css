@@ -156,3 +156,31 @@ p#computer-score {
     display: none;
 }
 
+/* rules popup */
+
+body.rules-popup-open:before {
+    width: 100vw;
+    position: absolute;
+    content: "";
+    height: 100vh;
+    background-color: #dddddcad;
+}
+#rules-popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+#rules-popup img {
+    max-width: 350px;
+}
+
+#rules-popup  button#close-rules-popup {
+    width: 250px;
+    margin: 20px auto;
+    border: solid 2px #000;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px 40px;
+}
