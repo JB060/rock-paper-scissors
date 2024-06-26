@@ -151,4 +151,18 @@ window.onload = function() {
 }
 
 
+// get close rules popup button and rules popup
+var gotItButton = document.getElementById("close-rules-popup");
+var rulesPopup = document.getElementById("rules-popup");
+
+// hide rules popup and remove class from body
+function closeRulesPopup() {
+    rulesPopup.style.display = "none"
+    document.body.classList.remove("rules-popup-open");
+}
+
+// Add event listener to the button
+gotItButton.addEventListener('click', closeRulesPopup);
+
+
 
