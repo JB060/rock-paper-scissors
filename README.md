@@ -37,7 +37,7 @@ various devices. The project aims to deliver a visually appealing interface with
 - <strong>Responsive Design</strong>: Adaptable to different screen sizes and devices:
  <img src= assets/images/RPSsnippit.PNG> alt = Responsive game screen 
 
-- <strong>Interactive Elements<strong>: Buttons and animations to enhance user engagement.
+- <strong>Interactive Elements</strong>: Buttons and animations to enhance user engagement.
    !(Home screen)[assets/images/]
 
 ### Home Section
@@ -45,8 +45,8 @@ various devices. The project aims to deliver a visually appealing interface with
 - <strong> Start Button</strong>: A prominent button to start the game.
 
 ### Instructions Section
- - <strong>How to Play</strong>: Simple and clear instructions for playing Rock-Paper-Scissors.
- - <strong>Rules Explanation </strong>: Detailed rules including how to win, lose, or draw.
+- <strong>How to Play</strong>: Simple and clear instructions for playing Rock-Paper-Scissors.
+- <strong>Rules Explanation </strong>: Detailed rules including how to win, lose, or draw.
    
 ### Game Section
 - <strong>Choice Buttons</strong>: Options to select Rock, Paper, or Scissors.
