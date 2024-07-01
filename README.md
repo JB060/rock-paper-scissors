@@ -27,3 +27,8 @@
     2. [Media](#media)
     3. [Code](#code)
 8. [Acknowledgements](#acknowledgements)
+
+# User Experience (UX)
+## Project Goals
+The goal of this project is to create a simple, engaging, and responsive Rock-Paper-Scissors game that is easy to play and accessible on 
+various devices. The project aims to deliver a visually appealing interface with clear instructions and immediate feedback on game results.
