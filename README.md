@@ -2,7 +2,7 @@
 ## Welcome to the Rock-Paper-Scissors project! This README provides an overview of the project, including user experience design, features, technologies used, testing, deployment, and credits.
 #### Visit the deployed website: https://jb060.github.io/rock-paper-scissors/
 
-!(RPS game)[assets/images/RPSsnippit.PNG]
+<img src= assets/images/RPSsnippit.PNG> alt = Responsive game screen 
 
 ## Table of Contents
 1. [User Experience (UX)](#user-experience-UX)
