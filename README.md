@@ -50,48 +50,61 @@ various devices. The project aims to deliver a visually appealing interface with
    
 ### Game Section
 - <strong>Choice Buttons</strong>: Options to select Rock, Paper, or Scissors.
-- Visual Feedback: Displays both user and computer choices with corresponding icons.
-Game Logic: Determines the outcome (win, lose, or draw) based on the choices made.
-Result Section
-Outcome Display: Shows whether the user has won, lost, or drawn.
-Score Tracker: Keeps track of the number of wins, losses, and draws.
-Technologies Used
-Languages Used
-HTML5: For structuring the web pages.
-CSS3: For styling and layout.
-JavaScript: For game logic and interactivity.
-Frameworks, Libraries and Programs Used
-Bootstrap: For responsive design and layout.
-FontAwesome: For icons used in the game.
-Google Fonts: For typography.
-jQuery: For simplifying JavaScript code.
-GitHub: For version control and project hosting.
-Testing
-Tools Testing
-Lighthouse: Used to check performance, accessibility, best practices, and SEO.
-W3C Validators: HTML and CSS validation for code quality.
-Manual Testing
-Cross-Browser Testing: Ensured compatibility across multiple browsers (Chrome, Firefox, Safari).
-Device Testing: Verified functionality on various devices (desktops, tablets, smartphones).
-Functional Testing: Checked that all buttons, game logic, and feedback mechanisms work as expected.
-Finished Product
-The finished Rock-Paper-Scissors game is fully functional and responsive, providing a seamless user experience with an intuitive interface and real-time feedback. Screenshots and live demo links are available in the project repository.
+- <strong>Visual Feedback</strong>: Displays both user and computer choices with corresponding icons.
+- <strong>Game Logic</strong>: Determines the outcome (win, lose, or draw) based on the choices made.
 
-Deployment
-GitHub Pages
-Repository: Hosted on GitHub.
-Deployment Steps: The project is deployed using GitHub Pages. Detailed deployment steps are available in the repository's documentation.
-Credits
-Content
-Game Logic: Custom JavaScript code developed to implement game functionality.
-Text: Instructions and game descriptions written by the development team.
-Media
-Icons: Sourced from FontAwesome.
-Graphics: Created using graphic design software for visual elements in the game.
-Code
-Inspiration: Various online resources and tutorials inspired and guided the development process.
-Acknowledgements
-Community: Thanks to the online development communities and tutorial creators who provided valuable insights and guidance.
-Feedback: Appreciation to the users who provided feedback during testing and helped refine the game.
-Thank you for exploring the Rock-Paper-Scissors game! Enjoy playing!
+### Result Section
+- <strong>Outcome Display</strong>: Shows whether the user has won, lost, or drawn.
+- <strong>Score Tracker</strong>: Keeps track of the number of wins, losses, and draws.
+  
+# Technologies Used
+
+### Languages Used
+- <strong>HTML5</strong>: For structuring the web pages.
+- <strong>CSS3</strong>: For styling and layout.
+- <strong>JavaScript</strong>: For game logic and interactivity.
+
+### Frameworks, Libraries and Programs Used:
+- <strong>Bootstrap<strong>: For responsive design and layout.
+- <strong>FontAwesome</strong>: For icons used in the game.
+- <strong>Google Fonts</strong>: For typography.
+- <strong>jQuery</strong>: For simplifying JavaScript code.
+- <strong>GitHub</strong>: For version control and project hosting.
+
+# Testing
+### Tools Testing
+- <strong>Lighthouse: Used to check performance, accessibility, best practices, and SEO.
+- <strong>W3C Validators</strong>: HTML and CSS validation for code quality.
+  
+# Manual Testing
+- <strong>Cross-Browser Testing</strong>: Ensured compatibility across multiple browsers (Chrome, Firefox, Safari).
+- <strong>Device Testing</strong>: Verified functionality on various devices (desktops, tablets, smartphones).
+- <strong>Functional Testing</strong>: Checked that all buttons, game logic, and feedback mechanisms work as expected.
+  
+# Finished Product
+- The finished Rock-Paper-Scissors game is fully functional and responsive, providing a seamless user experience with an intuitive interface and real-time feedback. Screenshots and live demo links are available in the project repository.
+
+# Deployment
+- <strong>GitHub Pages</strong>
+- <strong>Repository</strong>: Hosted on GitHub.
+<strong>Deployment Steps</strong>: The project is deployed using GitHub Pages. Detailed deployment steps are available in the repository's documentation.
+
+# Credits
+### Content
+- <strong>Game Logic</strong>: Custom JavaScript code developed to implement game functionality.
+- <strong>Text</strong>: Instructions and game descriptions written by the development team.
+  
+### Media
+<strong>Icon</strong>s: Sourced from FontAwesome.
+<strong>Graphics</strong>: Created using graphic design software for visual elements in the game.
+
+### Code
+<strong>Inspiration</strong>: Various online resources and tutorials inspired and guided the development process.
+
+# Acknowledgements
+<strong>Mentor</strong>: Thanks to my mentor Marcel who has provided me with great insight into the world of javascript and his experience within the space.  
+<strong> Slack Community</strong>: Thanks to the online development communities and tutorial creators who provided valuable insights and guidance.
+<strong>Feedback</strong>: Appreciation to the users who provided feedback during testing and helped refine the game.
+
+# Thank you for exploring the Rock-Paper-Scissors game! Enjoy playing!
 
