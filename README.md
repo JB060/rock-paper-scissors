@@ -2,7 +2,6 @@
 ## Welcome to the Rock-Paper-Scissors project! This README provides an overview of the project, including user experience design, features, technologies used, testing, deployment, and credits.
 #### Visit the deployed website: https://jb060.github.io/rock-paper-scissors/
 
-<img src= assets/images/RPSsnippit.PNG> alt = Responsive game screen 
 
 ## Table of Contents
 1. [User Experience (UX)](#user-experience-UX)
@@ -32,3 +31,12 @@
 ## Project Goals
 The goal of this project is to create a simple, engaging, and responsive Rock-Paper-Scissors game that is easy to play and accessible on 
 various devices. The project aims to deliver a visually appealing interface with clear instructions and immediate feedback on game results.
+
+# Features
+### General
+ - Responsive Design: Adaptable to different screen sizes and devices:
+ <img src= assets/images/RPSsnippit.PNG> alt = Responsive game screen 
+
+ - Interactive Elements: Buttons and animations to enhance user engagement.
+   !(Home screen)[assets/images/]
+
