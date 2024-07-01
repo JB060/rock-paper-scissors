@@ -95,16 +95,16 @@ various devices. The project aims to deliver a visually appealing interface with
 - <strong>Text</strong>: Instructions and game descriptions written by the development team.
   
 ### Media
-<strong>Icon</strong>s: Sourced from FontAwesome.
-<strong>Graphics</strong>: Created using graphic design software for visual elements in the game.
+- <strong>Icon</strong>s: Sourced from FontAwesome.
+- <strong>Graphics</strong>: Created using graphic design software for visual elements in the game.
 
 ### Code
-<strong>Inspiration</strong>: Various online resources and tutorials inspired and guided the development process.
+- <strong>Inspiration</strong>: Various online resources and tutorials inspired and guided the development process.
 
 # Acknowledgements
-<strong>Mentor</strong>: Thanks to my mentor Marcel who has provided me with great insight into the world of javascript and his experience within the space.  
-<strong> Slack Community</strong>: Thanks to the online development communities and tutorial creators who provided valuable insights and guidance.
-<strong>Feedback</strong>: Appreciation to the users who provided feedback during testing and helped refine the game.
+- <strong>Mentor</strong>: Thanks to my mentor Marcel who has provided me with great insight into the world of javascript and his experience within the space.  
+- <strong> Slack Community</strong>: Thanks to the online development communities and tutorial creators who provided valuable insights and guidance.
+- <strong>Feedback</strong>: Appreciation to the users who provided feedback during testing and helped refine the game.
 
 # Thank you for exploring the Rock-Paper-Scissors game! Enjoy playing!
 
