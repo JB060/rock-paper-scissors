@@ -38,11 +38,10 @@ various devices. The project aims to deliver a visually appealing interface with
  <img src= assets/images/RPSsnippit.PNG> alt = Responsive game screen 
 
 - <strong>Interactive Elements</strong>: Buttons and animations to enhance user engagement.
-   !(Home screen)[assets/images/]
 
 ### Home Section
 - <strong>Introduction</strong>: Brief overview of the game: 
-- <strong> Start Button</strong>: A prominent button to start the game.!(button for the rules)[assets/images/start.screen.PNG]
+- <strong> Start Button</strong>: A prominent button to start the game. <img src="images/start.screen.PNG"> alt=  A prominent button to start the game.
 
 ### Instructions Section
 - <strong>How to Play</strong>: Simple and clear instructions for playing Rock-Paper-Scissors.
