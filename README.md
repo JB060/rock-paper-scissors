@@ -57,7 +57,7 @@ various devices. The project aims to deliver a visually appealing interface with
 
 ### Result Section
 - <strong>Outcome Display</strong>: Shows whether the user has won, lost, or drawn.
-<img src= "images/losescreen-rps.PNG" alt = "lose screen shows yove lost the game"
+<img src= "images/losescreen-rps.PNG"> alt = "lose screen shows yove lost the game"
 - <strong>Score Tracker</strong>: Keeps track of the number of wins, losses, and draws.
   
 # Technologies Used
