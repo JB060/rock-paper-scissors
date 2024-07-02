@@ -41,8 +41,8 @@ various devices. The project aims to deliver a visually appealing interface with
    !(Home screen)[assets/images/]
 
 ### Home Section
-- <strong>Introduction</strong>: Brief overview of the game: !()[assets/images/]
-- <strong> Start Button</strong>: A prominent button to start the game.
+- <strong>Introduction</strong>: Brief overview of the game: 
+- <strong> Start Button</strong>: A prominent button to start the game.!(button for the rules)[assets/images/start.screen.PNG]
 
 ### Instructions Section
 - <strong>How to Play</strong>: Simple and clear instructions for playing Rock-Paper-Scissors.
