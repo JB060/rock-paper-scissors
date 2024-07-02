@@ -52,6 +52,8 @@ various devices. The project aims to deliver a visually appealing interface with
   <img src ="images/1.rps.PNG">
 - <strong>Visual Feedback</strong>: Displays both user and computer choices with corresponding icons.
 - <strong>Game Logic</strong>: Determines the outcome (win, lose, or draw) based on the choices made.
+  <img src ="images/2.rps.PNG">
+  <img src ="images/3.rps.PNG">
 
 ### Result Section
 - <strong>Outcome Display</strong>: Shows whether the user has won, lost, or drawn.
