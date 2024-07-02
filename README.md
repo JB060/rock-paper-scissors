@@ -49,7 +49,7 @@ various devices. The project aims to deliver a visually appealing interface with
    
 ### Game Section
 - <strong>Choice Buttons</strong>: Options to select Rock, Paper, or Scissors.
-  <img =src"">
+  <img src ="images/1.rps.PNG">
 - <strong>Visual Feedback</strong>: Displays both user and computer choices with corresponding icons.
 - <strong>Game Logic</strong>: Determines the outcome (win, lose, or draw) based on the choices made.
 
