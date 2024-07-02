@@ -41,7 +41,7 @@ various devices. The project aims to deliver a visually appealing interface with
    !(Home screen)[assets/images/]
 
 ### Home Section
-- <strong>Introduction</strong>: Brief overview of the game.
+- <strong>Introduction</strong>: Brief overview of the game: !()[assets/images/]
 - <strong> Start Button</strong>: A prominent button to start the game.
 
 ### Instructions Section
