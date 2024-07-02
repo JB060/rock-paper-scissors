@@ -35,7 +35,7 @@ various devices. The project aims to deliver a visually appealing interface with
 # Features
 ### General
 - <strong>Responsive Design</strong>: Adaptable to different screen sizes and devices:
- <img src= "assets/images/RPSsnippit.PNG"> alt = Responsive game screen 
+ <img src= "/assets/images/RPSsnippit.PNG"> alt = Responsive game screen 
 
 - <strong>Interactive Elements</strong>: Buttons and animations to enhance user engagement.
 
