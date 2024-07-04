@@ -19,13 +19,18 @@
     1. [Tools Testing](#tools-testing)
     2. [Manual Testing](#manual-testing)
 5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+6. [Improvements](#Improvements)
+    1. [Game Modes](#Game Modes)
+    2. [AI Enhancements](#AI Enhancements)
+    3. [Statistics](#Statistics)
+    4. [Gameplay Variations](#Gameplay Variations)
+8. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+9. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-8. [Acknowledgements](#acknowledgements)
+10. [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 ## Project Goals
@@ -71,7 +76,7 @@ various devices. The project aims to deliver a visually appealing interface with
 - <strong>CSS3</strong>: For styling and layout.
 - <strong>JavaScript</strong>: For game logic and interactivity.
 
-### Frameworks, Libraries and Programs Used:
+### Frameworks, Libraries, and Programs Used:
 - <strong>Bootstrap<strong>: For responsive design and layout.
 - <strong>FontAwesome</strong>: For icons used in the game.
 - <strong>Google Fonts</strong>: For typography.
@@ -80,7 +85,7 @@ various devices. The project aims to deliver a visually appealing interface with
 
 # Testing
 ### Tools Testing
-- <strong>Lighthouse: Used to check performance, accessibility, best practices, and SEO.
+- <strong>Lighthouse: Check performance, accessibility, best practices, and SEO.
 - <strong>W3C Validators</strong>: HTML and CSS validation for code quality.
   
 # Manual Testing
@@ -90,6 +95,27 @@ various devices. The project aims to deliver a visually appealing interface with
   
 # Finished Product
 - The finished Rock-Paper-Scissors game is fully functional and responsive, providing a seamless user experience with an intuitive interface and real-time feedback. Screenshots and live demo links are available in the project repository.
+
+# Improvements 
+- The game at the minute is functional, but lacks a theme, I would like to make the following improvements in the future to make the game a lot better for users:
+  
+# Game Features
+## Game Modes:
+ - Single Player: Play against the computer.
+ - Multiplayer: Two players can play against each other on the same machine.
+ - Online Multiplayer: Implement online multiplayer functionality.
+      
+ ### AI Enhancements:
+ - Difficulty Levels: Implement different difficulty levels by varying the computer’s strategy.
+ - Learning AI: Implement a learning algorithm where the computer improves its strategy based on past games.
+
+### Statistics:
+ - Score Tracking: Keep track of scores across multiple rounds.
+ - Game History: Display the history of moves and outcomes.
+
+### Gameplay Variations:
+ - Extended Choices: Include additional choices like Rock-Paper-Scissors-Lizard-Spock.
+ - Custom Rules: Allow users to create their own rules or variations.
 
 # Deployment
 - <strong>GitHub Pages</strong>
