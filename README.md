@@ -117,10 +117,21 @@ various devices. The project aims to deliver a visually appealing interface with
  - Extended Choices: Include additional choices like Rock-Paper-Scissors-Lizard-Spock.
  - Custom Rules: Allow users to create their own rules or variations.
 
-# Deployment
+# Deployment:
 - <strong>GitHub Pages</strong>
-- <strong>Repository</strong>: Hosted on GitHub.
-<strong>Deployment Steps</strong>: The project is deployed using GitHub Pages. Detailed deployment steps are available in the repository's documentation.
+This website was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
+Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+1. Log in to GitHub and locate the GitHub Repository.
+
+2. At the top of the Repository, locate the Settings button on the menu.
+
+3. Alternatively click here for a GIF demostration of the process.
+Scroll down the Settings page until you locate the Pages section.
+
+4.Under Source, click the dropdown called None and select Master Branch.
+
+5.The page will refresh automatically and generate a link to your website.
 
 # Credits
 ### Content
