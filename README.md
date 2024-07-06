@@ -118,8 +118,8 @@ various devices. The project aims to deliver a visually appealing interface with
  - Custom Rules: Allow users to create their own rules or variations.
 
 # Deployment:
-- <strong>GitHub Pages</strong>
-This website was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
+<strong>GitHub Pages</strong>
+- This website was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
 Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
 1. Log in to GitHub and locate the GitHub Repository.
