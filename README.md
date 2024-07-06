@@ -129,9 +129,9 @@ Here are the steps to deploy this website to GitHub Pages from its GitHub reposi
 3. Alternatively click here for a GIF demostration of the process.
 Scroll down the Settings page until you locate the Pages section.
 
-4.Under Source, click the dropdown called None and select Master Branch.
+4. Under Source, click the dropdown called None and select Master Branch.
 
-5.The page will refresh automatically and generate a link to your website.
+5. The page will refresh automatically and generate a link to your website.
 
 # Credits
 ### Content
