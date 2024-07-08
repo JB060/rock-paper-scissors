@@ -40,13 +40,13 @@ various devices. The project aims to deliver a visually appealing interface with
 # Features
 ### General
 - <strong>Responsive Design</strong>: Adaptable to different screen sizes and devices:
- <img src= "images/RPSsnippit.PNG"> alt = Responsive game screen 
+ <img src= "images/RPSsnippit.PNG"> 
 
 - <strong>Interactive Elements</strong>: Buttons and animations to enhance user engagement.
 
 ### Home Section
 - <strong>Introduction</strong>: Brief overview of the game: 
-- <strong> Start Button</strong>: A prominent button to start the game. <img src="images/start.screen.PNG"> alt=  A prominent button to start the game.
+- <strong> Start Button</strong>: A prominent button to start the game. <img src="images/start.screen.PNG">  A prominent button to start the game.
 
 ### Instructions Section
 - <strong>How to Play</strong>: Simple and clear instructions for playing Rock-Paper-Scissors.
