@@ -112,7 +112,7 @@ various devices. The project aims to deliver a visually appealing interface with
 - The finished Rock-Paper-Scissors game is fully functional and responsive, providing a seamless user experience with an intuitive interface and real-time feedback. Screenshots and live demo links are available in the project repository.
 
 # Improvements 
-- The game at the minute is functional, but lacks a theme, I would like to make the following improvements in the future to make the game a lot better for users:
+<strong>The game at the minute is functional, but lacks a theme, I would like to make the following improvements in the future to make the game a lot better for users:</strong>
   
 <strong>Game Modes:</strong>
  - Single Player: Play against the computer.
