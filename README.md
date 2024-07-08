@@ -16,9 +16,9 @@
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Bugs](#Bugs)
-    1. <strong>Incorrect Winner Determination:</strong>
-     - <strong>Bug:</strong> The app sometimes declared the wrong winner, especially in edge cases where the user input was not properly validated.
-     - <strong>Fix:</strong> Improved the game logic to handle all possible outcomes correctly and added additional validation for user input.
+ 1. <strong>Incorrect Winner Determination:</strong>
+  - <strong>Bug:</strong> The app sometimes declared the wrong winner, especially in edge cases where the user input was not properly validated.
+  - <strong>Fix:</strong> Improved the game logic to handle all possible outcomes correctly and added additional validation for user input.
 6. [Testing](#testing)
     1. [Tools Testing](#tools-testing)
     2. [Manual Testing](#manual-testing)
