@@ -126,21 +126,21 @@ Here are the steps to deploy this website to GitHub Pages from its GitHub reposi
 
 2. At the top of the Repository, locate the Settings button on the menu.
 
-3. Alternatively click here for a GIF demostration of the process.
-Scroll down the Settings page until you locate the Pages section.
+3. Alternatively click here for a GIF demonstration of the process.
+Please scroll down the Settings page until you find the Pages section.
 
-4. Under Source, click the dropdown called None and select Master Branch.
+4. Under Source, click the None dropdown and select Master Branch.
 
 5. The page will refresh automatically and generate a link to your website.
 
 # Credits
 ### Content
 - <strong>Game Logic</strong>: Custom JavaScript code developed to implement game functionality.
-- <strong>Text</strong>: Instructions and game descriptions written by the development team.
+- <strong>Text</strong>: Instructions and game descriptions written by Jason Byrne.
   
 ### Media
 - <strong>Icon</strong>s: Sourced from FontAwesome.
-- <strong>Graphics</strong>: Created using graphic design software for visual elements in the game.
+- <strong>Graphics</strong>: Created Photoshop for visual elements in the game.
 
 ### Code
 - <strong>Inspiration</strong>: Various online resources and tutorials inspired and guided the development process.
