@@ -16,25 +16,22 @@
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Bugs](#Bugs)
- 1. <strong>Incorrect Winner Determination:</strong>
-  - <strong>Bug:</strong> The app sometimes declared the wrong winner, especially in edge cases where the user input was not properly validated.
-  - <strong>Fix:</strong> Improved the game logic to handle all possible outcomes correctly and added additional validation for user input.
-6. [Testing](#testing)
+5. [Testing](#testing)
     1. [Tools testing](#tools-testing)
     2. [Manual Testing](#manual-testing)
-7. [Finished Product](#finished-product)
-8. [Improvements](#Improvements)
+6. [Finished Product](#finished-product)
+7. [Improvements](#Improvements)
     1. [Game_Modes](#Game-Modes)
     2. [AI Enhancements](#AI-Enhancements)
     3. [Statistics](#Statistics)
     4. [Gameplay-Variations](#Gameplay-Variations)
-9. [Deployment](#deployment)
+8. [Deployment](#deployment)
     1. [GitHub_Pages](#github-pages)
-10. [Credits](#credits)
+9. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-11. [Acknowledgements](#acknowledgements)
+10. [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 ## Project Goals
@@ -86,6 +83,11 @@ various devices. The project aims to deliver a visually appealing interface with
 - <strong>Google Fonts</strong>: For typography.
 - <strong>jQuery</strong>: For simplifying JavaScript code.
 - <strong>GitHub</strong>: For version control and project hosting.
+  
+# Bugs
+ 1. <strong>Incorrect Winner Determination:</strong>
+  - <strong>Bug:</strong> The app sometimes declared the wrong winner, especially in edge cases where the user input was not properly validated.
+  - <strong>Fix:</strong> Improved the game logic to handle all possible outcomes correctly and added additional validation for user input.
 
 # Testing
 ### Tools Testing
