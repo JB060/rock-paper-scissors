@@ -88,6 +88,15 @@ various devices. The project aims to deliver a visually appealing interface with
  1. <strong>Incorrect Winner Determination:</strong>
   - <strong>Bug:</strong> The app sometimes declared the wrong winner, especially in edge cases where the user input was not properly validated.
   - <strong>Fix:</strong> Improved the game logic to handle all possible outcomes correctly and added additional validation for user input.
+2. <strong>Unresponsive User Interface:</strong>
+ - <strong>Bug:</strong> The UI would become unresponsive after multiple rounds of the game.
+ - <strong>Fix:</strong> Optimized the event handling and ensured proper cleanup of resources after each game round.
+3. <strong>Score Reset Issue:</strong>
+ - <strong>Bug:</strong> The score counter was not resetting correctly when a new game session started.
+ - <strong>Fix:</strong> Implemented proper state management to reset the score and game state at the start of each new session.
+4. <strong>Crash on Invalid Input:</strong>
+ - <strong>Bug:</strong> The app would crash if the user entered an invalid move (anything other than rock, paper, or scissors).
+ - <strong>Fix:</strong> Added input validation to handle invalid entries gracefully and prompt the user to enter a valid move.
 
 # Testing
 ### Tools Testing
