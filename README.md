@@ -114,21 +114,20 @@ various devices. The project aims to deliver a visually appealing interface with
 # Improvements 
 - The game at the minute is functional, but lacks a theme, I would like to make the following improvements in the future to make the game a lot better for users:
   
-# Game Features
-## Game Modes:
+<strong>Game Modes:</strong>
  - Single Player: Play against the computer.
  - Multiplayer: Two players can play against each other on the same machine.
  - Online Multiplayer: Implement online multiplayer functionality.
       
- ### AI Enhancements:
+<strong> AI Enhancements:</strong>
  - Difficulty Levels: Implement different difficulty levels by varying the computer’s strategy.
  - Learning AI: Implement a learning algorithm where the computer improves its strategy based on past games.
 
-### Statistics:
+<strong>Statistics:</strong>
  - Score Tracking: Keep track of scores across multiple rounds.
  - Game History: Display the history of moves and outcomes.
 
-### Gameplay Variations:
+<strong>Gameplay Variations:</strong>
  - Extended Choices: Include additional choices like Rock-Paper-Scissors-Lizard-Spock.
  - Custom Rules: Allow users to create their own rules or variations.
 
