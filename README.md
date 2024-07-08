@@ -145,7 +145,7 @@ Please scroll down the Settings page until you find the Pages section.
 ### Code
 - <strong>Inspiration</strong>: Various online resources and tutorials inspired and guided the development process.
   <img src = images/JS_scorefunction.jpg>
-  <strong>Her lies the code for the function fir the score keeping of the game.
+- <strong> Here lies the code for the function for the scorekeeping of the game.
 
 # Acknowledgements
 - <strong>Mentor</strong>: Thanks to my mentor Marcel who has provided me with great insight into the world of javascript and his experience within the space.  
