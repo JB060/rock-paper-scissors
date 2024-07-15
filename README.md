@@ -64,8 +64,8 @@ various devices. The project aims to deliver a visually appealing interface with
 ### Result Section
 - <strong>Outcome Display</strong>: Shows whether the user has won, lost, or drawn.
 <img src= "images/losescreen-rps.PNG"><strong>lose screen shows you lost the game</strong>
-<img src= "images/tiescreen.rps.PNG"><strong>lose screen shows you lost the game</strong>
-<img src= "images/winscreen.rps.PNG"><strong>lose screen shows you lost the game</strong>
+<img src= "images/tiescreen.rps.PNG"><strong>Tie screen shows you Tie the game</strong>
+<img src= "images/winscreen.rps.PNG"><strong>Win screen shows you Win the game</strong>
 
 
 - <strong>Score Tracker</strong>: Keeps track of the number of wins, losses, and draws.
